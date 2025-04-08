@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 30px;
+    background: #f0f0f0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 100px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+}
+
+.result {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    white-space: pre; /* сохраняет отступы и переносы */
+    font-family: monospace;
+}
